@@ -10,72 +10,55 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        app:layout_constraintEnd_toEndOf="@+id/edtemail"
-        app:layout_constraintStart_toStartOf="@+id/edtemail"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars" />
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="44dp"
+        tools:srcCompat="" />
 
     <EditText
         android:id="@+id/edtname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="53dp"
         android:ems="10"
         android:hint="Enter Full Names"
         android:inputType="text"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="225dp" />
 
     <EditText
         android:id="@+id/edtphone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="62dp"
-        android:layout_marginTop="46dp"
         android:ems="10"
         android:hint="Enter PhoneNumber"
         android:inputType="phone"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtname" />
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="316dp" />
 
     <EditText
         android:id="@+id/edtemail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="58dp"
-        android:layout_marginTop="52dp"
         android:ems="10"
         android:hint="Enter Email Address"
         android:inputType="textEmailAddress"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtphone" />
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="413dp" />
 
     <EditText
         android:id="@+id/edtpassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="2dp"
-        android:layout_marginTop="46dp"
-        android:layout_marginEnd="2dp"
         android:ems="10"
         android:hint="Enter Password"
         android:inputType="textPassword"
-        app:layout_constraintEnd_toEndOf="@+id/edtphone"
-        app:layout_constraintStart_toStartOf="@+id/edtemail"
-        app:layout_constraintTop_toBottomOf="@+id/edtemail" />
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="504dp" />
 
     <Button
         android:id="@+id/btncreateacc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="2dp"
-        android:layout_marginEnd="2dp"
-        android:layout_marginBottom="68dp"
         android:text="CREATE ACCOUNT"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/edtphone"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/imageView" />
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="577dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

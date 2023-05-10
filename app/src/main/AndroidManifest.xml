@@ -13,6 +13,27 @@
         android:theme="@style/Theme.HospitalManagementSystemWANDERA"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Logoutactivity"
+            android:exported="false" />
+        <activity
+            android:name=".Pharmacyactivity"
+            android:exported="false" />
+        <activity
+            android:name=".doctorsactivity2"
+            android:exported="false" />
+        <activity
+            android:name=".Resultsactivity"
+            android:exported="false" />
+        <activity
+            android:name=".Labactivity"
+            android:exported="false" />
+        <activity
+            android:name=".Doctorsactivity"
+            android:exported="false" />
+        <activity
             android:name=".Patientsactivity"
             android:exported="false" />
         <activity
